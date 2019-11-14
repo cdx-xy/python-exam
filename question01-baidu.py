@@ -8,7 +8,7 @@ def open_url(url):
   html = response.read().decode('utf-8')
   return html
 
-url = 'https://www.baidu.com/s?wd=%E5%85%B3%E6%97%AD&rsv_spt=1&rsv_iqid=0xd90a906900058af8&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_dl=tb&rsv_sug3=8&rsv_sug1=2&rsv_sug7=100&rsv_sug2=0&inputT=1566&rsv_sug4=1776&rsv_sug=1'
+url = 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E6%9B%B9%E6%AE%BF%E9%9B%AA&oq=%25E5%2585%25B3%25E6%2597%25AD&rsv_pq=9287bf250006013c&rsv_t=8f51zZhu8FkPmFB4VSyJjPHB88IqUJtQs5dIwgoqoTwUIoyZNDvNANCreOk&rqlang=cn&rsv_enter=1&rsv_dl=tb&inputT=1706&rsv_sug3=34&rsv_sug1=19&rsv_sug7=100&rsv_sug2=0&rsv_sug4=1706'
 html = open_url(url)
 # print(html)
 
